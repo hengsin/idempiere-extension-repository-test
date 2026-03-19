@@ -19,7 +19,7 @@ def generate_index():
         return
 
     # Replace YOUR_ORG/YOUR_REPO with values of your repository
-    repo_url = "https://github.com/YOUR_ORG/YOUR_REPO"
+    repo_url = "https://github.com/hengsin/idempiere-extension-repository-test"
 
     for extension_id in os.listdir(extensions_dir):
         extension_path = os.path.join(extensions_dir, extension_id)
