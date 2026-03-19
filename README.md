@@ -37,6 +37,6 @@ We welcome new extension! To submit yours:
 ## 🤖 For Tool Developers
 
 If you are building an extension manager for iDempiere, you can point your client to:
-`https://raw.githubusercontent.com/<YOUR_ORG>/<YOUR_REPO>/main/index.json`
+`https://raw.githubusercontent.com/hengsin/idempiere-extension-repository-test/main/index.json`
 This file is automatically updated every time a new extension is merged.
 
