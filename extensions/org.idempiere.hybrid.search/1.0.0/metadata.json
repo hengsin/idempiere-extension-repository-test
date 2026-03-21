@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "idempiereVersion": "13",
   "releaseDate": "2026-03-18",
-  "name": "iDempiere Hybrid Search"
+  "name": "iDempiere Hybrid Search",
   "description": "iDempiere Hybrid Search is a plugin that enhances iDempiere's search capabilities by combining traditional full-text (lexical) search with modern vector (semantic) search.",
   "categories": ["search"],
   "tags": ["search", "embedding"],
