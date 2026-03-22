@@ -19,7 +19,7 @@ def generate_index():
         return
 
     # Replace YOUR_ORG/YOUR_REPO with values of your repository
-    repo_url = "https://github.com/hengsin/idempiere-extension-repository-test"
+    repo_url = "https://github.com/YOUR_ORG/YOUR_REPO"
 
     for extension_id in os.listdir(extensions_dir):
         extension_path = os.path.join(extensions_dir, extension_id)
@@ -54,6 +54,11 @@ def generate_index():
             info_md = os.path.join(extension_path, 'info.md')
             if os.path.exists(info_md):
                 latest['infoUrl'] = f"{repo_url}/blob/main/{extension_path}/info.md"
+
+            # Optional: Add link to the changelog
+            changelog_md = os.path.join(extension_path, 'CHANGELOG.md')
+            if os.path.exists(changelog_md):
+                latest['changeLogUrl'] = f"{repo_url}/blob/main/{extension_path}/CHANGELOG.md"
 
             index_data['extensions'].append(latest)
 
