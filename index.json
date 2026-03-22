@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T03:28:11.162309Z",
+  "generatedAt": "2026-03-22T03:55:53.478846Z",
   "extensions": [
     {
       "id": "org.idempiere.hybrid.search",
@@ -25,7 +25,13 @@
       ],
       "dependencies": [],
       "infoUrl": "https://github.com/YOUR_ORG/YOUR_REPO/blob/main/extensions/org.idempiere.hybrid.search/info.md",
-      "changeLogUrl": "https://github.com/YOUR_ORG/YOUR_REPO/blob/main/extensions/org.idempiere.hybrid.search/CHANGELOG.md"
+      "changeLogUrl": "https://github.com/YOUR_ORG/YOUR_REPO/blob/main/extensions/org.idempiere.hybrid.search/CHANGELOG.md",
+      "assets": [
+        {
+          "name": "Business Partner Search Column.png",
+          "url": "https://github.com/YOUR_ORG/YOUR_REPO/blob/main/extensions/org.idempiere.hybrid.search/assets/Business Partner Search Column.png"
+        }
+      ]
     }
   ]
 }
