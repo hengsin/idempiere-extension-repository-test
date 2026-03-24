@@ -12,7 +12,7 @@
     {
       "symbolicName": "org.idempiere.hybrid.search",
       "downloadUrl": "https://github.com/hengsin/idempiere-hybrid-search/releases/download/2026-03-18/org.idempiere.hybrid.search-1.0.0-SNAPSHOT.jar",
-      "sha256": "52bb454aba8df2e9a6eed5be7afff34ee1a40bff58f461b454e617f9f9470108"
+      "sha256": "c09ef50d6d1e4169df7abbf42f04d26299a51410223aced74349e12eb8e0cd43"
     }
   ],
   "dependencies": []
