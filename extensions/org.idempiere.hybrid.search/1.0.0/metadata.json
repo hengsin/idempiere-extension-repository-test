@@ -15,5 +15,12 @@
       "sha256": "c09ef50d6d1e4169df7abbf42f04d26299a51410223aced74349e12eb8e0cd43"
     }
   ],
-  "dependencies": []
+  "dependencies": [],
+  "database": [
+	{
+		"id": "postgresql",
+		"version": "17",
+		"extensions": ["vector"]
+	}
+  ]
 }
