@@ -1,11 +1,8 @@
 {
-  "generatedAt": "2026-03-29T14:10:10.601516Z",
+  "generatedAt": "2026-03-29T14:16:33.559889Z",
   "extensions": [
     {
       "id": "org.idempiere.hybrid.search",
-      "version": "1.0.0",
-      "idempiereVersion": "13",
-      "releaseDate": "2026-03-18",
       "name": "iDempiere Hybrid Search",
       "description": "iDempiere Hybrid Search is a plugin that enhances iDempiere's search capabilities by combining traditional full-text (lexical) search with modern vector (semantic) search.",
       "categories": [
@@ -16,21 +13,10 @@
         "embedding"
       ],
       "entityType": "org.idempiere.hybrid.search",
-      "bundles": [
+      "versions": [
         {
-          "symbolicName": "org.idempiere.hybrid.search",
-          "downloadUrl": "https://github.com/hengsin/idempiere-hybrid-search/releases/download/2026-03-18/org.idempiere.hybrid.search-1.0.0-SNAPSHOT.jar",
-          "sha256": "c09ef50d6d1e4169df7abbf42f04d26299a51410223aced74349e12eb8e0cd43"
-        }
-      ],
-      "dependencies": [],
-      "database": [
-        {
-          "id": "postgresql",
-          "version": "17",
-          "extensions": [
-            "vector"
-          ]
+          "version": "1.0.0",
+          "metadataUrl": "https://github.com/hengsin/idempiere-extension-repository-test/blob/main/extensions/org.idempiere.hybrid.search/1.0.0/metadata.json"
         }
       ],
       "infoUrl": "https://github.com/hengsin/idempiere-extension-repository-test/blob/main/extensions/org.idempiere.hybrid.search/info.md",
@@ -44,9 +30,6 @@
     },
     {
       "id": "com.trekglobal.idempiere.rest.api",
-      "version": "1.0.0",
-      "idempiereVersion": "12",
-      "releaseDate": "2026-03-27",
       "name": "iDempiere REST API",
       "description": "Comprehensive REST API for iDempiere covering models, processes, windows, and workflows with JWT authentication.",
       "categories": [
@@ -60,13 +43,12 @@
         "json"
       ],
       "entityType": "IR",
-      "bundles": [
+      "versions": [
         {
-          "symbolicName": "com.trekglobal.idempiere.rest.api",
-          "downloadUrl": "https://jenkins.idempiere.org/job/idempiere-rest/ws/com.trekglobal.idempiere.rest.api/target/com.trekglobal.idempiere.rest.api-1.0.0-SNAPSHOT.jar"
+          "version": "1.0.0",
+          "metadataUrl": "https://github.com/hengsin/idempiere-extension-repository-test/blob/main/extensions/com.trekglobal.idempiere.rest.api/1.0.0/metadata.json"
         }
       ],
-      "dependencies": [],
       "infoUrl": "https://github.com/hengsin/idempiere-extension-repository-test/blob/main/extensions/com.trekglobal.idempiere.rest.api/info.md"
     }
   ]
